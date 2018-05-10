@@ -31,6 +31,9 @@ plugins:
   # Google Analytics
 google_analytics: UA-65128121-1
 
+webmaster_verifications:
+  google: re7UY9qybuk1mNHj8WpOib0kIjin_boPlFAjO5TjQoA
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

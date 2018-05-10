@@ -30,6 +30,7 @@ plugins:
 
   # Google Analytics
 google_analytics: UA-65128121-1
+yandex_metrika: 31424498
 
 webmaster_verifications:
   google: re7UY9qybuk1mNHj8WpOib0kIjin_boPlFAjO5TjQoA

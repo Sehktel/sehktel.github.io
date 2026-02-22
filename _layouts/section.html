@@ -1,13 +1,12 @@
 ---
 # Layout для страниц разделов: внизу отображаются посты с соответствующим тегом
-layout: page
+layout: post
 ---
 {{ content }}
 
 {%- if page.tag -%}
 {%- assign tagged_posts = site.posts | where_exp: "post", "post.tags contains page.tag" -%}
 {%- if tagged_posts.size > 0 -%}
-<h2 class="post-list-heading">Посты по теме</h2>
 <ul class="post-list">
   {%- for post in tagged_posts -%}
   <li>

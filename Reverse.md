@@ -1,7 +1,8 @@
 ---
-layout: page
-title: Reverse Engenering 
+layout: section
+title: Обратная разработка ПО 
 permalink: /reverse/
+tag: reverse
 ---
 
 # Обратная разработка ПО

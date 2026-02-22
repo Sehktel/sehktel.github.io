@@ -1,0 +1,21 @@
+---
+---
+@import "minima";
+
+/* Страница CV: расширяем wrapper (minima по умолчанию ~800px) */
+.wrapper:has(.cv-content) {
+  max-width: 1000px;
+}
+
+.cv-content {
+  max-width: 100%;
+}
+
+@media print {
+  .cv-content {
+    max-width: none;
+  }
+  
+  /* Скрыть шапку/меню при печати — при необходимости раскомментировать */
+  header, .site-nav, footer { display: none !important; }
+}

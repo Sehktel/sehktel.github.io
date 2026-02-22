@@ -20,8 +20,9 @@ platforms :windows, :mswin, :mingw, :x64_mingw, :jruby do
   # gem "wdm", "~> 0.1.1"
 end
 
-# Для Ruby 3+
+# Для Ruby 3.4+ — stdlib gems исключены из поставки Ruby
 gem "webrick", "~> 1.8"
+gem "csv", ">= 3.0"
 
 # Обновленные зависимости для безопасности
 gem "activesupport", ">= 7.0.8"
